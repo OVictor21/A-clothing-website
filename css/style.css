@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar  */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 11vh;
+    background-color: rgb(190, 231, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 1%;
+    left: 3%;  
+}
+
+@font-face{
+    font-family: logo;
+    src: url(../fonts/Agreloy.otf);
+}
+
+h1{
+    font-family: logo;
+    font-size: 35px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+} 
+
+.nav-links li{
+    list-style-type: none;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    padding: 14px 10px;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.nav-links a:hover {
+    background-color: rgb(7, 139, 166);
+  }
+
+@media screen and (max-width: 600px){
+    
+    
+}
+
+.search input[type=text]{
+    padding: 13px;
+    font-size: 13px;
+    border: none;
+}
+
+.search button[type=submit]{
+    padding: 10px;
+    float: right;
+    border: none;
+}
+
+/* END NAV BAR  */
+
+/* BACKGROUND IMAGE  */
+.back img{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+.back{
+  position: relative;
+  text-align: center;
+}
+
+.back h1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.back p{
+    position: absolute;
+    top: 60%;
+    left: 32%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.back button[type=submit]{
+    position: absolute;
+    top:80%;
+    left: 45%;
+    background-color: rgba(10, 10, 10, 0.5);
+    color: white;
+    font-family:Verdana;
+    width: 150px;
+    font-size: 15px;
+    height: 60px;
+}
+
+.back button[type=submit]:hover{
+    background-color: rgb(7, 139, 166);
+}
+
+/* END  */
+
+/* EXPLORE PRODUCT */
+.text{
+    margin-top: 100px;
+    margin-left: 56px;
+    padding-left: 520px;
+    font-size: 30px;
+    color: rgb(105, 123, 213);
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px;
+}
+
+.box1{
+    display: flex;
+    width: 400px;
+    height: 85px;
+    border: 1px solid black;
+    box-shadow: 5px 2px 4px 2px grey;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px; 
+}
+
+.box2{
+    display: flex;
+    width: 400px;
+    height: 85px;
+    border: 1px solid black;
+    box-shadow: 5px 2px 4px 2px grey;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+.box3{
+    display: flex;
+    width: 400px;
+    height: 85px;
+    border: 1px solid black;
+    box-shadow: 5px 2px 4px 2px grey;
+    border-top-right-radius: 15px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+}
+
+.wears{
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+}
+
+.box1 p{
+    font-family: Georgia;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.box2 p{
+    font-family: Georgia;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.box3 p{
+    font-family: Georgia;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+/* END OF EXPLORE PRODUCT */
+
+/* LATEST PRODUCT */
+.latest{
+    margin-left: 620px;
+    margin-top: 180px;
+    font-size: 30px;
+    font-family: Georgia;
+    color: rgb(105, 123, 213);
+}
+
+.card{
+    margin: 90px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.card1 img{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    width: 270px;
+    height: 300px;
+}
+
+.card1 h4{
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.card1 p{
+    margin-left: 90px;
+    font-size: 20px;
+    
+}
+
+.card2 img{
+    border-radius: 15px;
+    width: 270px;
+    height: 300px;
+}
+
+.card2 h4{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.card2 p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.card3 img{
+    border-radius: 15px;
+    width: 270px;
+    height: 300px;
+}
+
+.card3 h4{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.card3 p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.card4 img{
+    border-radius: 15px;
+    width: 270px;
+    height: 300px;
+}
+
+.card4 h4{
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.card4 p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.cards{
+    margin: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card5 img{
+    border-radius: 15px;
+    width: 270px;
+    height: 300px;
+}
+
+.card5 h4{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.card5 p{
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+
+.card6 img{
+    border-radius: 15px;
+    width: 270px;
+    height: 300px;
+}
+
+.card6 h4{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.card6 p{
+    margin-left: 85px;
+    font-size: 20px;
+}
+
+.card7 img{
+    border-radius: 15px;
+    width: 270px;
+    height: 300px;
+}
+
+.card7 h4{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.card7 p{
+    margin-left: 85px;
+    font-size: 20px;
+}
+
+.card8 img{
+    border-radius: 15px;
+    width: 270px;
+    height: 300px;
+}
+
+.card8 h4{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.card8 p{
+    margin-left: 85px;
+    font-size: 20px;
+}
+/* END  */
+
+/* SNEAKERS  */
+.sneakers{
+    margin-left: 620px;
+    margin-top: 130px;
+    font-size: 30px;
+    font-family: Georgia;
+    color: rgb(105, 123, 213);
+}
+
+
+.can{
+    margin: 90px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.can1 img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.can1 h4{
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.can1 p{
+    margin-left: 90px;
+    font-size: 20px;
+    
+}
+
+.can2 img{
+    border-radius: 15px;
+    width: 310px;
+    height: 300px;
+}
+
+.can2 h4{
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.can2 p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.can3 img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.can3 h4{
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.can3 p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.can4 img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.can4 h4{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.can4 p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.cans{
+    margin: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.can5 img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.can5 h4{
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.can5 p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+
+.can6 img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.can6 h4{
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.can6 p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.can7 img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.can7 h4{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.can7 p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.can8 img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.can8 h4{
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight:lighter ;
+}
+
+.can8 p{
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+/* END OF SNEAKERS  */
+
+/* NEWSLETTER */
+.news h2{
+    margin-top: 40px;
+    margin-left: 630px;    
+
+}
+
+.news p{
+    margin-top: 10px;
+    margin-left: 550px; 
+}
+
+.news input[type=text]{
+    margin-top: 10px;
+    margin-left: 510px;
+    width: 400px;
+    height: 40px;
+    font-size: 10px;
+    padding: 10px;
+    
+}
+
+.news button[type=submit]{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: none;
+    
+}
+
+.news button[type=submit]:hover{
+    background-color: grey;
+}
+/* END OF NEWSLETTER */
+
+/* FOOTER  */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: rgb(230, 230, 225);
+    border: none;
+    padding-top: 30px;
+}
+
+.customer a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+}
+
+.shopping a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.social-icons{
+    background-color: rgb(204, 203, 203);
+    text-align: center;
+    min-height: 8vh;
+    padding-top: 10px;
+}
+
+.social-icon{
+    font-size: 1.2rem;
+    color: black;
+    margin-right: 1rem;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.social-icon:hover {
+    color: white;
+}
+
+.footer-text {
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: var(--clr-white);
+    font-weight: 400;
+
+}
+/* END OF footer */
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 700px) {
+    .back img{
+        position: relative;
+        left: -40%;
+        width: 180%;
+    
+    }
+
+    .box{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .box1{
+        width: 100%;
+    }
+
+    .box2{
+        width: 100%;
+    }
+
+    .box2{
+        width: 100%;
+    }
+
+}
